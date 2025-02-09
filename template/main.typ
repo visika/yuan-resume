@@ -4,7 +4,8 @@ Project: https://github.com/visika/yuan-resume
 Based on: https://github.com/Xyz-yuanhf/yuan-resume
 */
 
-#import "@preview/yuan-resume:0.1.0": *
+// #import "@preview/yuan-resume:0.1.0": *
+#import "../functions.typ": *
 
 #set page(margin: (top: 1.2cm, bottom: 2.6cm, left: 1.8cm, right: 2.3cm))
 #set text(font: "Sabon LT Std", 10pt)
@@ -26,10 +27,10 @@ Based on: https://github.com/Xyz-yuanhf/yuan-resume
 
 #line(length: 100%, stroke: 0.4pt)
 
-#sectionBlock(
+#section-block(
   [Education],
   [
-    #eduHeading(
+    #edu-heading(
       department: [Department of Automation, Tsinghua University],
       location: [Beijing, China],
       role: [Ph.D. in Control Science and Engineering],
@@ -38,7 +39,7 @@ Based on: https://github.com/Xyz-yuanhf/yuan-resume
     - Advisor: Prof. Xiao Yuan
     - Research area: Operations Research and Machine Learning
 
-    #eduHeading(
+    #edu-heading(
       department: [Department of Precision Instrument, Tsinghua University],
       location: [Beijing, China],
       role: [B.E. in Measurement and Control Technology and Instrument],
@@ -48,7 +49,7 @@ Based on: https://github.com/Xyz-yuanhf/yuan-resume
   ],
 )
 
-#sectionBlock(
+#section-block(
   [Publications],
   [
     #set par(justify: true)
@@ -65,15 +66,15 @@ Based on: https://github.com/Xyz-yuanhf/yuan-resume
   ],
 )
 
-#sectionBlock(
+#section-block(
   [Projects],
   [
-    #projHeading(
+    #proj-heading(
       title: [Advanced Optimization Techniques for Smart Grid Management],
       institution: [National Natural Science Foundation of China (NSFC)],
       time: [2023.01 - 2024.01],
     )
-    #projHeading(
+    #proj-heading(
       title: [Optimizing Urban Traffic Flow Using AI-Based Predictive Models],
       institution: [Smart Transportation Innovations Grant],
       time: [2021.12 - 2022.12],
@@ -81,10 +82,10 @@ Based on: https://github.com/Xyz-yuanhf/yuan-resume
   ],
 )
 
-#sectionBlock(
+#section-block(
   [Internships],
   [
-    #internHeading(
+    #intern-heading(
       company: [ABC Tech Ltd.],
       location: [Shanghai, China],
       time: [2024.01 - 2024.06],
@@ -92,7 +93,7 @@ Based on: https://github.com/Xyz-yuanhf/yuan-resume
     - Develop engaging content for social media platforms.
     - Prepare reports and presentations summarizing research findings.
 
-    #internHeading(
+    #intern-heading(
       company: [XYZ Tech Inc.],
       location: [Shanghai, China],
       time: [2023.07 - 2023.12],
@@ -102,7 +103,7 @@ Based on: https://github.com/Xyz-yuanhf/yuan-resume
   ],
 )
 
-#sectionBlock(
+#section-block(
   [Awards and Honors],
   [
     #set par(spacing: 8pt)
@@ -125,7 +126,7 @@ Based on: https://github.com/Xyz-yuanhf/yuan-resume
   ],
 )
 
-#sectionBlock(
+#section-block(
   [Skills],
   [
     #set terms(separator: [: ])
@@ -134,7 +135,7 @@ Based on: https://github.com/Xyz-yuanhf/yuan-resume
   ],
 )
 
-#sectionBlock(
+#section-block(
   [Academinc Services],
   [
     #set par(justify: true)
