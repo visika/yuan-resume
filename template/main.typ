@@ -4,7 +4,7 @@ Project: https://github.com/visika/yuan-resume
 Based on: https://github.com/Xyz-yuanhf/yuan-resume
 */
 
-#import "functions.typ": *
+#import "@preview/yuan-resume:0.1.0": *
 
 #set page(margin: (top: 1.2cm, bottom: 2.6cm, left: 1.8cm, right: 2.3cm))
 #set text(font: "Sabon LT Std", 10pt)

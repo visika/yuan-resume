@@ -6,6 +6,14 @@ authors = ["Mariano Mollo <marianomollo@protonmail.ch>"]
 license = "MIT"
 description = "An elegant academic resume template"
 repository = "https://github.com/visika/yuan-resume"
+keywords = [
+    "resume",
+    "cv",
+    "academic",
+    "elegant",
+    "template",
+    "curriculum vitae",
+]
 categories = ["cv"]
 
 [template]
