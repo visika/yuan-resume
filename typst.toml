@@ -1,0 +1,14 @@
+[package]
+name = "yuan-resume"
+version = "0.1.0"
+entrypoint = "functions.typ"
+authors = ["Mariano Mollo <marianomollo@protonmail.ch>"]
+license = "MIT"
+description = "An elegant academic resume template"
+repository = "https://github.com/visika/yuan-resume"
+categories = ["cv"]
+
+[template]
+path = "template"
+entrypoint = "main.typ"
+thumbnail = "preview.png"
